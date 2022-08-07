@@ -1,0 +1,21 @@
+1. İstifadəçinin girdiyi ədədin həm 7 həm 3 həm də 8-ə eyni anda bölünüb bölünmədiyini istifadəçiyə bildirən kod yazın.
+2. İstifadəçinin girdiyi şəxsiyyət vəsiqəsinin düzgünlüyünü yoxlayan kod yazın. Şəxsiyyət vəsiqəsi:
+    1. Şəxsiyyət vəsiqəsi 10 characterdən ibarət olmalıdır. 
+    2. Bunun ilk 3 hərfi hərhansı bir ölkənin qısaltması olmalıdır. Misal AZE, TUR, USA. Həmin qısaltmalar böyük hərflə yazılan ingilis şriftləridir. 
+    3. Daha sonrakı 7 character isə ancaq rəqəmlərdən ibarət olmalıdır
+3. Bank sistemi hazılayrsınız və istifadəçinin aldığı kredit miqdarına görə ödəyəcəyi yekun borcu hesablamalsınız. Faizlər aşağıdakı kimidir:
+    1. 2000 AZN altına kredit verilmir
+    2. 2000 - 10000 AZN arası 5 faiz
+    3. 10000 - 50000 AZN arası 4 faiz
+    4. 50000 - 200000 AZN arası 3 faiz
+    5. 200000 - 500000 AZN arası 2 faiz
+    6. 500000 AZN yuxarısında kredit verilmir
+    
+    Örnək hesablama 13000 kredit alan şəxs yekunda 13650 AZN ödəniş edəcək
+    
+4. İstifadəçinin şifrəsinin düzgün olub olmadığını yoxlayan kod yazın. Şifrə aşağıdakı qaydalara uymaldır. Əgər uymazsa istifadəçiyə səhvini print edərək bildirin:
+    1. Ən az 8 ən çox 40 characterdən ibarət olmalıdır
+    2. Ancaq ingilis sriflərindən ibarət olmalıdır
+    3. Ancaq hərf və rəqəmlərdən ibarət olmalıdır
+    4. Mütləq şəkildə ən az bir böyük və bir kiçik hərf olmalıdır
+    5. Mütləq şəkildə ən az 1 hərf və ən az 1 rəqəm olmalıdır
