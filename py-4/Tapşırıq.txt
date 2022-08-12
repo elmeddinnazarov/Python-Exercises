@@ -1,0 +1,48 @@
+1. `ferma = ['at', 'qoyun', 'inek', 'at', 'inek', 'qoyun', 'at', 'at', 'keci']` şəklində fermaya sahib bir fermer bizdən bəzi köməkliklər istəyir. Fermerə kömək etmək üçün aşağıdakı tapşırıqları yerinə yetirin.
+    1. Fermada keçinin sırasını tapın
+    2. Fermadakı heyvanları ad sırasına görə sıralayın
+    3. Fermadan bir at çıxarıb, ən sağdan bir toyuq əlavə edin
+    4. Ən soldan bir keci əlavə edin
+    5. Fermanın yarısını dinamik bir şəkildə silin
+    6. Yeni gələn `['at', 'qoyun', 'inek', 'inek', 'qoyun']` heyvanları fermaya əlavə edin
+    7. Fermadakı heyvanları 3 qatına çıxarın
+    8. Fermadakı heyvanları tərsinə sıralayın
+    9. Fermadakı ineklerin sayının ümumi fermanın neçə faizi olduğunu tapın
+    10. Oxşar fermadan istəyən basqa bir fermerə fermamızın kopyasını verini
+    11. Fermada təmir işi getməlidi, heyvanları çölə çıxarmaq üçün fermanı təmizləyin
+
+
+
+
+
+2.  Aşağıdakı `result` listinin 0-cı indexinə `numbers` listi daxilindəki müsbət ədədlərin cəmini, 
+1-ci indexə isə mənfi ədədlərin cəmini yerləşdirin. 
+    - Hint
+        
+        Alacağınız cavab `[154.2, -71.84]` olmalıdır
+        
+    
+    ```python
+    result = [0, 0]
+    numbers = [10.2, -32, -5.45, 32, 7, 43, -24.06, -4, -6.33, 62]
+    ```
+    
+3. İstifadəçinin girdiyi ədədi tək ədədlərdən ibarət tərsinə çevirilmiş list şəklinə salın. 
+Listin bütün elementlərinin integer olmasına diqqət edin. Örnək:
+    
+    ```python
+    input: 834255
+    output: [5, 5, 2, 4, 3, 8]
+    ```
+    
+4. `numbers = [10.2, -32, -5.45, 32, 7, 43, -24.06, -4, -6.33, 62]` list içərisindəki ən böyük və ən kiçik ədədi dinamik şəkildə tapın.
+
+
+
+5. Aşağıda tələbələrin semestr nəticələri qeyd edilmişdir. Buna əsasən qeyd olunmuş statistik məlumatları eyni anda print edin.
+    1. Tələbə sayı
+    2. Ümumi ortalama.
+    3. Kəsilən tələbələrin ümumi faizi (51- qiymət alanlar)
+    4. Yüksək nəticə göstərən tələbələrin ümumu faizi (80+ qiytət alanlar)
+
+    r=[31, 38, 69, 83, 83, 56, 38, 41, 96, 48, 43, 60, 49, 47, 73, 60, 69, 96, 50, 74]
