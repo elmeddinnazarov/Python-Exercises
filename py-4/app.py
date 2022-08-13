@@ -1,33 +1,31 @@
 #################### Question 1 ####################
 ####################################################
-# ferma = ['at', 'qoyun', 'inek', 'at', 'inek', 'qoyun', 'at', 'at', 'keci']
-# print("\nFermada olan heyvanlar bunlardır: ", ferma)
-# print("\nkeçinin sırası: ",str(ferma.index("keci"))+"'dir.")
-# ferma.sort(reverse=False)
-# print("\nAd sırasına göre sıralama: ", ferma)
-# ferma.remove("at"), ferma.append("toyuq")
-# print("\nAt silinde ve toyuq elave edildi: ",ferma)
-# ferma.insert(0,"keci")
-# print("\nListenin başına keçi elave edildi: ",ferma)
-# del ferma[0:4]
-# print("\nListenin yarısı silindi: ",ferma)
-# yeni=['at', 'qoyun', 'inek', 'inek', 'qoyun']
-# ferma.extend(yeni)
-# print("\nYeni gelen heyvanlar elave edildi: ",ferma)
-# ferma=ferma*3
-# print("\nHeyvanlar 3 qatına çıxarıldı: ",ferma)
-# ferma.sort(reverse=True)
-# print("\nTersine sıralama: ",ferma)
-# total=len(ferma)
-# inek=ferma.count("inek")
-# print("\nFermadaki inekler ümumi heyvanların "+str(int(round((inek*100)/total)))+"%'ni teşkil edir.")
-# ferma2=ferma.copy()
-# print("\n1-ci ferma: ",ferma,"\n\n2-ci Ferma: ",ferma2)
-# ferma.clear()
-# print("\nTemir işleri sebebiyle ferma temizlendi: ",ferma)
+ferma = ['at', 'qoyun', 'inek', 'at', 'inek', 'qoyun', 'at', 'at', 'keci']
+print("\nFermada olan heyvanlar bunlardır: ", ferma)
+print("\nkeçinin sırası: ",str(ferma.index("keci"))+"'dir.")
+ferma.sort(reverse=False)
+print("\nAd sırasına göre sıralama: ", ferma)
+ferma.remove("at"), ferma.append("toyuq")
+print("\nAt silinde ve toyuq elave edildi: ",ferma)
+ferma.insert(0,"keci")
+print("\nListenin başına keçi elave edildi: ",ferma)
+del ferma[0:(int(len(ferma)/2))]
+print("\nListenin yarısı silindi: ",ferma)
+yeni=['at', 'qoyun', 'inek', 'inek', 'qoyun']
+ferma.extend(yeni)
+print("\nYeni gelen heyvanlar elave edildi: ",ferma)
+ferma=ferma*3
+print("\nHeyvanlar 3 qatına çıxarıldı: ",ferma)
+ferma.sort(reverse=True)
+print("\nTersine sıralama: ",ferma)
+total=len(ferma)
+inek=ferma.count("inek")
+print("\nFermadaki inekler ümumi heyvanların "+str(int(round((inek*100)/total)))+"%'ni teşkil edir.")
+ferma2=ferma.copy()
+print("\n1-ci ferma: ",ferma,"\n\n2-ci Ferma: ",ferma2)
+ferma.clear()
+print("\nTemir işleri sebebiyle ferma temizlendi: ",ferma)
 ####################################################
-
-# 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
 
 #################### Question 2 ####################
 ####################################################
