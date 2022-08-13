@@ -1,0 +1,429 @@
+1. 1500 ile 2700 arasında (her ikisi de dahil) 7'ye ve 5'e bölünebilen sayıları bulan bir Python programı yazın. Editöre git
+Örnek çözümü görmek için bana tıkla
+
+2. Sıcaklıkları santigrat ve fahrenhayt'a çeviren bir Python programı yazın. 
+[ Formül : c/5 = f-32/9 [ burada c = santigrat cinsinden sıcaklık ve f = fahrenhayt cinsinden sıcaklık ]
+Beklenen Çıktı :
+60°C, Fahrenhayt'ta 140'tır
+45°F, Celsius'ta 7'dir
+. örnek çözüme bakın
+
+3. 1 ile 9 arasında bir sayı tahmin edecek bir Python programı yazın . Editöre gidin
+Not : Kullanıcıdan bir tahmin girmesi istenir. Kullanıcı yanlış tahminde bulunursa, tahmin doğru olana kadar istem tekrar görünür, başarılı tahminde kullanıcı "İyi tahmin!" mesajı ve program kapanacaktır.
+
+
+4. Yuvalanmış bir for döngüsü kullanarak aşağıdaki kalıbı oluşturmak için bir Python programı yazın.
+
+* 
+* * 
+* * * * * * * * 
+* * * * 
+* * * 
+* 
+* 
+* * 
+*
+
+
+5. Kullanıcıdan bir kelime alan ve onu tersine çeviren bir Python programı yazınız. 
+
+6. Bir sayı dizisinden çift ve tek sayıların sayısını sayan bir Python programı yazın. 
+Örnek sayılar : sayılar = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+Beklenen Çıktı :
+Çift sayı sayısı : 5
+Tek sayı sayısı : 4
+Örnek çözümü görmek için bana tıklayın
+
+7. Aşağıdaki listeden her bir öğeyi ve karşılık gelen türünü yazdıran bir Python programı yazın.
+Örnek Liste : datalist = [1452, 11.23, 1+2j, True, 'w3resource', (0, -1), [5, 12], {"class":'V', "section":'A'} ]
+
+
+8. 3 ve 6 hariç 0'dan 6'ya kadar olan tüm sayıları yazdıran bir Python programı yazınız.
+Not : 'continue' ifadesini kullanın.
+Beklenen Çıktı : 0 1 2 4 5
+Örnek çözümü görmek için bana tıklayın
+
+9. Fibonacci dizisini 0 ile 50 arasında almak için bir Python programı yazın. Editöre gidin
+Not: Fibonacci Dizisi,
+0, 1, 1, 2, 3, 5, 8, 13, 21, sayıları dizisidir. ...
+Her sonraki sayı, kendisinden önceki iki sayı toplanarak bulunur.
+Beklenen Çıktı : 1 1 2 3 5 8 13 21 34
+Örnek çözümü görmek için bana tıklayın
+
+10. 1'den 50'ye kadar tamsayıları yineleyen bir Python programı yazın. Üçün katları için sayı yerine "Fizz", beşin katları için "Buzz" yazın. Hem üç hem de beşin katı olan sayılar için "FizzBuzz" yazdırın.
+Örnek Çıktı :
+fizzbuzz
+1
+2
+fizz
+4
+buzz
+Örnek çözümü görmek için tıklayın
+
+11. Girdi olarak m (satır) ve n (sütun) olmak üzere iki rakamı alan ve iki boyutlu bir dizi oluşturan bir Python programı yazınız. Dizinin i. satırı ve j. sütunundaki eleman değeri i*j olmalıdır. Editöre gidin
+Not :
+i = 0,1.., m-1
+j = 0,1, n-1.
+
+Test Verisi : Satır = 3, Sütun = 4
+Beklenen Sonuç : [[0, 0, 0, 0], [0, 1, 2, 3], [0, 2, 4, 6]]
+Örneği görmek için bana tıklayın çözüm
+
+12. Bir satır dizisini (sonlandırmak için boş satır) girdi olarak kabul eden ve satırları çıktı olarak (tüm karakterler küçük harfle) yazdıran bir Python programı yazın. Editöre git
+Örnek çözümü görmek için bana tıkla
+
+13. Girdi olarak virgülle ayrılmış 4 basamaklı ikili sayı dizisini kabul eden ve 5'e bölünebilen sayıları virgülle ayrılmış bir dizide yazdıran bir Python programı yazın. Editöre gidin
+Örnek Veri : 0100,0011,1010,1001,1100,1001
+Beklenen Çıktı : 1010
+Örnek çözümü görmek için bana tıklayın
+
+14. Bir dize kabul eden ve rakam ve harf sayısını hesaplayan bir Python programı yazın. 
+Örnek Veri : Python 3.2
+Beklenen Çıktı :
+Harfler 6
+Rakam 2
+
+Örnek çözümü görmek için bana tıklayın
+
+15. Kullanıcılar tarafından girilen şifrenin geçerliliğini kontrol etmek için bir Python programı yazınız. Düzenleyici
+Validation'a gidin:
+
+[az] arasında en az 1 harf ve [AZ] arasında 1 harf.
+[0-9] arasında en az 1 sayı.
+[$#@]'dan en az 1 karakter.
+Minimum uzunluk 6 karakter.
+Maksimum uzunluk 16 karakter.
+
+
+16. Bir sayının her basamağı bir çift sayı olan 100 ile 400 (her ikisi de dahil) arasındaki sayıları bulan bir Python programı yazın. Elde edilen sayılar virgülle ayrılmış bir sırayla yazdırılmalıdır. Editöre git
+Örnek çözümü görmek için bana tıkla
+
+17. Alfabe kalıbı 'A'yı yazdıran bir Python programı yazın. 
+
+Örnek cevap: 
+
+  ***                                                                   
+ * *                                                                  
+ * *                                                                  
+ *****                                                                  
+ * *                                                                  
+ * *                                                                  
+ * *
+
+
+18. Alfabe kalıbı 'D'yi yazdıran bir Python programı yazın. 
+
+Örnek cevap: 
+
+****                                                                   
+ * *                                                                  
+ * *                                                                  
+ * *                                                                  
+ * *                                                                  
+ * *                                                                  
+ ****
+
+
+19. Alfabe kalıbı 'E' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+*****                                                                  
+ *                                                                      
+ *                                                                      
+ ****                                                                   
+ *                                                                      
+ *                                                                      
+ *****
+
+
+20. Alfabe kalıbı 'G' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+  ***                                                                   
+ * *                                                                  
+ *                                                                      
+ ****                                                                  
+ * *                                                                  
+ * *                                                                  
+  ***
+
+
+21. Alfabe kalıbı 'L' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+*                                                                      
+ *                                                                      
+ *                                                                      
+ *                                                                      
+ *                                                                      
+ *                                                                      
+ *****
+
+
+22. Alfabe kalıbı 'M' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+  * *                                                             
+  * *                                                             
+  * * * *                                                             
+  * * *                                                             
+  * *                                                             
+  * *                                                             
+  * *
+
+
+23. Alfabe kalıbı 'O' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+  ***                                                                   
+ * *                                                                  
+ * *                                                                  
+ * *                                                                  
+ * *                                                                  
+ * *                                                                  
+  ***
+
+
+24. Alfabe kalıbı 'P' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+****                                                                   
+ * *                                                                  
+ * *                                                                  
+ ****                                                                   
+ *                                                                      
+ *                                                                      
+ *  
+
+
+25. Alfabe kalıbı 'R' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+****                                                                   
+ * *                                                                  
+ * *                                                                  
+ ****                                                                   
+ * *                                                                    
+ * *                                                                   
+ * *
+
+
+26. Aşağıdaki kalıpları yazdıracak bir Python programı yazınız. 
+
+Örnek cevap: 
+
+  ****                                                                  
+ *                                                                      
+ *                                                                      
+  ***                                                                   
+     *                                                                  
+     *                                                                  
+ ****
+ 
+ ooooooooooooooooooo                                                       
+ooooooooooooooooooo                                                       
+ooooooooooooooooooo                                                       
+oooo                                                                    
+oooo                                                                    
+oooo                                                                    
+ooooooooooooooooooo                                                       
+ooooooooooooooooooo                                                       
+ooooooooooooooooooo                                                       
+             oooo                                                       
+             oooo                                                       
+             oooo                                                       
+ooooooooooooooooooo                                                       
+ooooooooooooooooooo                                                       
+ooooooooooooooooooo
+
+
+27. Alfabe kalıbı 'T' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+*****                                                                  
+   *                                                                    
+   *                                                                    
+   *                                                                    
+   *                                                                    
+   *                                                                    
+   *  
+
+
+28. Alfabe kalıbı 'U' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+* *                                                                  
+ * *                                                                  
+ * *                                                                  
+ * *                                                                  
+ * *                                                                  
+ * *                                                                  
+  ***
+
+
+29. Alfabe kalıbı 'X' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+* *                                                                  
+ * *                                                                  
+  * *                                                                   
+   *                                                                    
+  * *                                                                   
+ * *                                                                  
+ * *
+
+
+30. Alfabe kalıbı 'Z' yazdıracak bir Python programı yazın. 
+
+Örnek cevap: 
+
+********                                                                 
+     *                                                                  
+    *                                                                   
+   *                                                                    
+  *                                                                     
+ *                                                                      
+********
+
+
+31. Bir köpeğin yaşını köpek yılı cinsinden hesaplayan bir Python programı yazın. Editöre git
+Not: İlk iki yıl için, bir köpek yılı 10.5 insan yılına eşittir. Bundan sonra, her köpek yılı 4 insan yılına eşittir.
+Beklenen çıktı:
+
+Bir köpeğin yaşını insan yılı olarak girin: 15                                    
+Köpeğin yaşı 73'tür.
+
+
+32. Alfabenin sesli mi yoksa ünsüz mü olduğunu kontrol eden bir Python programı yazın. 
+
+Örnek cevap: 
+
+Alfabenin bir harfini girin: k                                       
+k bir ünsüzdür.
+
+
+33. Ay adını gün sayısına çeviren bir Python programı yazın. 
+
+Örnek cevap: 
+
+Ay listesi: Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos
+, Eylül Ekim Kasım Aralık                                
+Ayın adını girin: Şubat                                       
+Gün sayısı: 28/29 gün
+
+
+34. Verilen iki tamsayıyı toplayan bir Python programı yazın. Ancak toplam 15 ile 20 arasındaysa 20 döndürür. Editöre gidin
+
+
+
+35. Bir dizgenin bir tamsayıyı temsil edip etmediğini kontrol etmek için bir Python programı yazın. 
+
+Örnek cevap: 
+
+Bir dize girin: Python                                                  
+Dize bir tamsayı değil.  
+
+
+36. Bir üçgenin eşkenar, ikizkenar veya skalen olup olmadığını kontrol eden bir Python programı yazın. Editöre gidin
+Not :
+Eşkenar üçgen, üç kenarı da eşit olan bir üçgendir.
+Scalene üçgeni, eşit olmayan üç kenarı olan bir üçgendir.
+İkizkenar üçgen, (en az) iki kenarı eşit olan bir üçgendir.
+Beklenen çıktı:
+
+Üçgen kenarlarının giriş uzunlukları:                                    
+x: 6                                                                    
+y: 8                                                                    
+saat: 12                                                                   
+Eşkenar olmayan üçgen  
+
+
+37. Bir ayı ve günü temsil eden iki tamsayıyı okuyan ve o ay ve gün için mevsimi yazdıran bir Python programı yazın. 
+
+Örnek cevap: 
+
+Ayı girin (örn. Ocak, Şubat vb.): temmuz                     
+Günü girin: 31                                                       
+Mevsim sonbahar  
+
+
+38. Verilen doğum tarihi için astrolojik işareti gösterecek bir Python programı yazınız. 
+
+Örnek cevap: 
+
+Girilen doğum günü: 15                                                      
+Doğum ayını girin (örneğin mart, temmuz vb.): mayıs                        
+Astrolojik burcunuz: Boğa
+
+
+39. Doğduğunuz yıl için Çin Zodyakının işaretini gösteren bir Python programı yazın. 
+
+Örnek cevap: 
+
+Doğum yılınızı girin: 1973                                             
+Burcunuz: Öküz  
+
+
+40. Üç değerin medyanını bulan bir Python programı yazın. 
+
+Örnek cevap: 
+
+İlk sayıyı girin: 15                                                  
+İkinci numarayı girin: 26                                                 
+Üçüncü numarayı girin: 29                                                  
+medyan 26.0   
+
+
+41. Belirli bir tarihin ertesi gününü alacak bir Python programı yazın. 
+
+Örnek cevap: 
+
+Bir yıl girin: 2016                                                      
+Bir ay girin [1-12]: 08                                                
+Bir gün girin [1-31]: 23                                                  
+Bir sonraki tarih [yyyy-aa-gg] 2016-8-24   
+
+
+42. n tam sayının (kullanıcıdan girdi) toplamını ve ortalamasını hesaplayan bir Python programı yazın. Bitirmek için 0 girin. editöre git
+
+
+
+43. Bir sayının (1'den 10'a kadar) çarpım tablosunu oluşturan bir Python programı yazın. 
+
+Örnek cevap: 
+
+Bir sayı girin: 6                                                       
+6 x 1 = 6                                                               
+6 x 2 = 12                                                              
+6x3 = 18                                                              
+6 x 4 = 24                                                              
+6 x 5 = 30                                                              
+6 x 6 = 36                                                              
+6 x 7 = 42                                                              
+6 x 8 = 48                                                              
+6x9 = 54                                                              
+6 x 10 = 60
+
+
+44. Yuvalanmış bir döngü numarası kullanarak aşağıdaki kalıbı oluşturmak için bir Python programı yazın. 
+
+Örnek cevap: 
+
+1
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+999999999s
