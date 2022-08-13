@@ -33,9 +33,61 @@
 ###############################################
 ################### Sual 3 ####################
 
+# import random
+# intro_text="""
+# This is the game that the program catch a random number between 1 and 9 and you have just 3 attempts to find the number.
+   
+#     Enter to Start!
+
+#     Do your Best!
+
+# """
+# main_text="""
+# Enter your guess: 
+# """
+# input(intro_text)
+# rand_num=random.randint(1,9)
+# c=1
+# while True:
+#     user_guess=input(main_text)
+#     if c ==3:
+#         print("Game Over!")
+#         break
+#     elif not user_guess.isnumeric():
+#         print("\nEasy man! Write just number not anything else!")
+#     elif not 1<= int(user_guess) <=9:
+#         print("\nEasy man! Write just number between 1 and 9")
+#     elif (int(user_guess)+2)==rand_num or (int(user_guess)-2)==rand_num:
+#         print("Close Guess! You have just "+str((3-c))+" attempts, be carefull :)")
+#         c+=1
+#     elif (int(user_guess)-1)==rand_num or (int(user_guess)+1)==rand_num:
+#         print("So Close! You have just "+str((3-c))+" attempts, be carefull :)")
+#         c+=1
+#     elif int(user_guess)==rand_num:
+#         print("Congratulations!")
+#         break
+#     else:
+#         print("Wrong Answer! You have just"+str((3-c))+" attempts, be carefull :)")
+#         c+=1
+
+    
+###############################################
+################### Sual 4 ####################
 
 
 
+
+
+###############################################
+################### Sual 5 ####################
+
+# while True:
+#     word=input("write a word: ")
+#     if not word.isalpha():
+#         print("Write just a word! not anything else!")
+#     else:
+#         break
+# print(word[::-1])
 
 
 ###############################################
@@ -53,6 +105,8 @@
 
 # print(len(cüt), len(tek))
 
+###############################################
+################### Sual 7 ####################
         
         
         
