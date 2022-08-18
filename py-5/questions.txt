@@ -1,0 +1,13 @@
+1. Aşağıdakı listdən istifadə edərək 6-ya bölünən ədədləri çıxarıb onların kvadratından yeni bir list hazırlayın
+    - list
+        
+        ```python
+        [3, 12, 48, 7, 57, 41, 76, 62, 16, 48, 59, 53, 60, 79, 71, 81, 88, 26, 45, 72, 25, 65, 53, 88, 79, 34, 42, 40, 45, 92, 52, 85, 90, 16, 37, 50, 96, 67, 7, 59, 3, 41, 40, 58, 83, 16, 47, 23, 5, 22]
+        ```
+        
+2. -100-dən müsbət 100-ə qədər ədədlər arasında 7-yə bölünən ədədlərin 3-ə vurulmasından ibarət bir list qurun. Bunun üçün range və list comprehensions istifadə edin.
+
+3. `data = (1, 2, 3, True, False, 3.3)` bu datanı buna çevirin `('asdf', 1, 2, 3, True, False, 3.3, (1, 2))`
+
+4. Bildiyimiz kimi dir() funskyası argumentə yazılan datanın metod və attributlarının list daxilində stringlər şəklində adını göstərir. 
+List comprehensions ilə ətrafında cüt altdan xət olan metod adlarının çıxarılmış yeni bir list hazırlayın
