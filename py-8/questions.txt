@@ -1,0 +1,80 @@
+1. Istifadəçinin girdiyi mətnlərdəki hərfləri əlifba sırsanıda özünən sonra gələn hərflə dəyişdirən program yazın. Örnək:
+input: `Men Python 3 oyrenirem`
+output: `Nfo Qzuipo 3 pzsfojsfn`
+
+2. İstifadəçinin girdiyi mətn daxilindəki hərflərin ingilis əlifbasındakı sırasına qarşılıq gələn ədədlərlə dəyişdirilmiş şəkildə göstərin. Örnək:
+input: `Men Javascript oyrenirem`
+output: `13,5,14, 10,1,22,1,19,3,18,9,16,20, 15,25,18,5,14,9,18,5,13,`
+
+3. Atadan 2 oğula bir ferma miras qalıb. Ata vəsiyyətində deyir ki, fermanı ortadan 2-yə bölün, birinci yarısı böyük oğula, ikinci yarısı isə kiçik oğula verilsin. Ədalətsizliyi aradan qaldırmaq üçün qardaşlar razılaşır ki, gəl hərəmizə düşən fermadakı heyvanların qiymətlərini hesablayaq, əgər kimin ferması daha çox pul edirsə, o aradakı fərqi bağlamaq üçün cibindən çıxarıb, digərinə nəğd pul versin. Misal üçün əgər böyük qardaşın ferması 20000 manat, kiçik qardaşınkı 15000 manatdırsa, böyük qardaş öz cibindən çıxarıb kiçiyə 2500 manat versin, beləliklə hər birinin sərvəti eyni olsun.
+Fermamız və qiymətlər aşağıdakı kimidir:
+    
+    ```python
+    ferma = ('at', 'inek', 'inek', 'keci', 'qoyun', 'qoyun', 'qoyun', 'inek', 'at', 'toyuq', 'inek', 'inek', 'keci', 'at', 'keci', 'qoyun', 'inek', 'at', 'toyuq', 'inek', 'keci', 'keci', 'inek', 'toyuq', 'inek', 'toyuq', 'keci', 'toyuq', 'at', 'keci', 'at', 'keci', 'inek', 'qoyun', 'keci', 'at', 'qoyun', 'inek', 'inek', 'toyuq', 'at', 'at', 'toyuq', 'at', 'inek', 'toyuq', 'inek', 'toyuq', 'toyuq', 'qoyun')
+    qiymetler = {'at': 1200, 'inek': 900, 'toyuq': 50, 'keci': 300, 'qoyun': 150}
+    ```
+    
+    Verilən məlumatlara əsasən hansı qardaş hansına nə qədər pul verməli olduğunu göstərən kod yazın. Örnək outputlar: `Boyuk qardas kiciye 2700 manat vermelidir` və ya `Kicik qardas boyuye 3700 manat vermelidir`
+    
+
+4. Aşağıdakı kodda sual işarələrinin yerini doldurun. Örnək outputa nəzər yetirərək nəticənin həmin formada alınmasına diqqət edin.
+    
+    ```python
+    animal = input('Ferma admin paneline xos geldiniz. Axtardiginiz heyvani daxil edin: ')
+    farm = ['inek', 'keci', 'at', 'at', 'at', 'keci', 'at', 'qoyun', 'at', 'keci', 'at', 'toyuq', 'inek', 'keci', 'at', 'toyuq', 'inek', 'toyuq', 'inek', 'toyuq', 'keci', 'toyuq', 'qoyun', 'keci', 'keci', 'qoyun', 'at', 'qoyun', 'inek', 'at', 'keci', 'qoyun', 'inek', 'keci', 'qoyun', 'inek', 'toyuq', 'at', 'toyuq', 'keci', 'inek', 'toyuq', 'at', 'toyuq', 'at', 'keci', 'qoyun', 'keci', 'keci', 'inek']
+    qiymetler = {'at': 1200, 'inek': 900, 'toyuq': 50, 'keci': 300, 'qoyun': 150}
+    text = f"""
+    Axtarilan Heyvan: {???????}
+    {???????}
+    Fermadaki {???????} sayi:  {???????}
+    Diger heyvanlara olan faizi: {???????}
+    {???????} umumi qiymeti: {???????} AZN
+    """
+    print(text)
+    ```
+    
+    Örnək output:
+    
+    ```
+    Axtarilan Heyvan: At
+    --------------------
+    Fermadaki at sayi:  12
+    Diger heyvanlara olan faizi: 24.00%
+    At umumi qiymeti: 14,400 AZN
+    ```
+
+
+
+5. Istifadəçinin girdiyi stringi binary şəklində göstərin. Örnək
+    - Hint
+        1. ASCII Table sırası həm də characterin 10-luq sistemdəki qarşılığını verir. Onu 2-li sistemə çevirməyiniz characterin binary qarşılığını tapmağa kifayət edər
+        2. Ədədi binary sistemə çevirən hazır python funksiyası var. Həmin funksiyanı, misal
+        `???(34)` ⇒ `'0b100010’` bu şəkildə işlətdikdə sizə binary qarşılığını string kimi verəcək. Həmin stringi 2-ci indexdən başlayıb, sona qədər slice etsəz `0b` hissəsi xaric edilmiş formada characterin binary qarşılığını tam ala bilərsiniz (Yuxaridakina misal olaraq: `‘100010’`)
+
+    ```python
+    input: 'Men Python 3 oyrenirem'
+    output: '1001101 1100101 1101110 100000 1010000 1111001 1110100 1101000 1101111 1101110 100000 110011 100000 1101111 1111001 1110010 1100101 1101110 1101001 1110010 1100101 1101101'
+    ```
+    
+6. Istifadəçi input olaraq `color: rgb(127, 255, 12)` şəklində CSS rəngi girəcək. Siz istifadəçinin girdiyi rəngi 16-lıq sistemdəki qarşılığına çevirin. Örnək:
+    - Hint
+        
+        İstənilən inputda ilk 10 character (`color: rgb(`) və axırdan 1 character (`)`) sabit qalacaq. 
+        Buna əsasən sadəcə ədədlərin olduğu hissəni extract edə bilərsiniz. 
+        Daha sonra həmin ədədlərin 16-lıq sistemdəki qarşılıqlarını birləşdirib şərtdə istənilən formada output çıxarın. 
+        Ədədin 16-lıq sistemdəki qarşılığını tapmaq üçün Pythonda mövcud olan hazır bir funksiyadan istiafdə edə bilərsiniz.
+        
+    
+    `input: color: rgb(244, 123, 12)`
+    `output: color: f47b0c`
+    
+7. İstifadəçi arada boşluq olmaqla birlikdə 2 - 9 arasında bir sayma sistemi və həmin sistemdə yazılmış bir ədəd girəcək. Həmin ədədi 10-luq sistemə çevirib, istifadəçiyə göstərin
+    - Hint
+        
+        Digər sistemlərdəki ədədləri 10-luq sistemə keçirmək üçün istifadə olunan düsturdan yararlanın. Aşağıdakı örnəkdə 8-lik sistemdə olan 172-ni necə 10-luq sistemə keçirildiyi göstərilir
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e5f7bef-f2cb-424d-8c57-0572ed9c4c83/Untitled.png)
+        
+    
+    `input: 3 120012012` 
+    `output: 11075`
