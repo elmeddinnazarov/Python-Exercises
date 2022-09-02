@@ -1,0 +1,22 @@
+1. Girilen stringlərin ilk hərfini böyüdüb, birləşdirən bir funksiya hazırlayın.
+`upunion('birlesmis', 'milletler', 'teskilati') => 'BMT'`
+2. Girilen stringi qeyd edilen sekilde deyisen bir funksiya hazirlayin
+`chstr('Kitabi sehve-sehve oxumalisan ki, orgenesen', sehve='sehife', orgen='oyren') => 'Kitabi sehife-sehife oxumalisan ki, oyrenesen'`
+    1. Birinci argument ilk qiyməti, ikinci argument isə yeni qiyməti göstərir. Yeni qiymətin ilkindən neçə faiz fərqləndiyini print edən funksiya düzəldin.
+    `find_percent(200, 60) # output: qiymet 70% azalmisdir` 
+    `find_percent(100, 150) # output: qiymet 50% artmisdir`
+3. Mətnlər üzərində işləmək üçün böyük bir program hazırlamsınız ancaq sonradan öyrənirsiniz ki, programı çalışdıracaq müştərinin komputeri azərbaycan şriftlərini dəstəkləmir. Bütün funksiyaları yenidən yazmaq yerinə elə bir dekorator yazın ki, həmin funksiyaların return etdiyi stringlərdəki aze hərfləri ingilis qarşılığıyla dəyişdirilmiş olsun. Örnək:
+    
+    ```python
+    @ing_cevir
+    def salam_ver(ad, soyad):
+    	return 'Salam hörmətli {} {}, necəsiniz?'.format(ad, soyad)
+    
+    print(salam_ver('Arif', 'Həsənov'))
+    # output: Salam hormetli Arif Hesenov, necesiniz?
+    ```
+    
+4. Girilən listin ən böyük ədədindən ən kiçiyini çıxarıb, nəticə verən bir funksiya hazırlayın.
+`big_dif_sml([6, 3, 8, 9, 2]) => 7` # en  boyuk 9, en kicik 2
+5. üç rəqəmli ədədləri sözə çevirən bir funksiya hazırlayın. Örnək output:
+`eded_cevir(658) => altı yüz əlli səkkiz`
