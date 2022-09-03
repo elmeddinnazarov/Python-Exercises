@@ -1,0 +1,40 @@
+1. Aşağıdakı düsturladan 10-unu seçib, valueləri lambda ilə yazılmış funksya olan, 10 itemdən ibarət dictionary düzəldin. Daha sonra həmin funksiyaları istifadə edin.
+    
+    ```python
+    physic = {
+    	'F': lambda m, a: m * a,
+    	...
+    }
+    print(physic.get('F')(5, 4)) #output: 20
+    ```
+    
+    şekil var notion'a bax    
+
+1. Lambda ilə factorial hesablayan recursive function hazırlayın.
+2. Dictionary datalarını düzləşdirən bir recursive funksiya hazırlayın. Örnək:
+`letdict = {'a': 1, 'v': {'b': 2}, 'c': {'f': 3, 'c': 3, 'h': {'r': 5}, 'p': 3}, 'y': 9}` 
+`output: {'a': 1, 'b': 2, 'f': 3, 'c': 3, 'r': 5, 'p': 3, 'y': 9}`
+
+1. Aşağıdakı ədədlər arasında rəqəmlərinin cəmi ən yüksək olanı çıxarın.
+`85856, 73930, 95298, 57870, 99688, 92907, 13075, 12905, 52948, 97687, 10832, 78757, 99502, 65889, 34618, 59109, 83419, 31486, 94522, 34400`
+2. Şaxta baba uşaqlara hədiyyələr paylayır, ancaq bu təsadüfi şəkildə olduğu üçün bəzi ədalətsizliklər yaranır və uşaqlar şikayət üçün list hazırlamaq istəyirlər. Bu listi hazırlamaq üçün sizə müraciət edib, bahadan ucuza kimə hansı hədiyyəni və hansı qiymətə olduğunu yazmağınızı istəyiblər. Hədiyyələr və uşaqların adlarının indeksləri eynidir. Datalardan istifadə edərək məlumatı hazırlayın.
+    - Data
+        
+        ```python
+        children = ['Arif', 'Babek', 'Hesen', 'Rufet', 'Sahin', 'Eldeniz', 'Turan', 'Sahmar', 'Kamal', 'Ruslan']
+        gifts = ['Ball', 'Iphone', 'Bicycle', 'Ball', 'Piano', 'Bicycle', 'Socks', 'Play Station', 'Ball', 'Socks']
+        prices = {'Ball': 10, 'Iphone': 1100, 'Bicycle': 500, 'Piano': 1500, 'Sock': 10, 'Play Station': 1200}
+        ```
+        
+    
+    Outputdan bir hissə:
+    `...
+    Babək 1100 manat dəyərində Iphone götürüb
+    ...`
+    
+3. Aşağıdakı dataları tiplərinə görə sıralamaq lazımdır. Sıra bu şəkildə olacaq: Listlər, Setlər, Dictonarylər, Booleanlar, İntegerlər, Floatlar, Stringlər.
+    - Data
+        
+        ```python
+        [{1, 2}, {'a': 1, 'b': 2}, 5, 7.8, 'asdf', 23, ['a', 'b'], True, {5, 6}, False]
+        ```
