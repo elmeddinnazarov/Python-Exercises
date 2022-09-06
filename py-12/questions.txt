@@ -1,0 +1,7 @@
+1. Bu kodda baş verə biləcək errorları araşdırıb, onları handle edin
+2. Təxmin edə bilməyəcəyiniz errorlar üçün bir şərt qoşun
+3. Əgər istifadəçi 10-dan artıq və ya 3-dən az heyvan giribsə internetdən istədiyiniz bir erroru taparaq təyin edin.
+
+animals = input('Heyvanlari girin: ').split(', ')
+prices = { 'inek': 500, 'toyuq': 50, 'qoyun': 120, 'at': 900, 'keci': 210 }
+print('Umumi qiymet:', sum(map(lambda animal: prices[animal], animals)))
