@@ -27,26 +27,3 @@ Birincisi parametrdəki listi sort edib, son elementi çıxarsın, digəri isə 
 #             min_int=i
 #     return min_int
 # print(inf_method(random_list), timeit('inf_method(random_list)', 'from __main__ import inf_method, random_list', number=1000))
-
-
-######################### Sual 2 ###########################
-############################################################
-
-import os
-
-
-for i in os.listdir():
-    if i.startswith("tasks"):
-        pass
-    elif i.startswith("app"):
-        pass
-    else:
-        b=open(i, "rb")
-        lines = b.readlines()
-        new_lines=lines[200:]
-        new_lines.append[lines[:200]]
-        b=open(i, "wb")
-        b.write(new_lines)
-        b.close()
-
-
