@@ -1,0 +1,33 @@
+# 3. (Orta) İstifadəçidən nömrə istəyən bir program hazırlayın. Nömrələr +994 ilə başlamalı və uzunluğu 13 ədəddən ibarət olmalıdı. 
+İlk characteri olan + çıxmaq şərtilə ancaq ədədlərdən ibarət olmalıdır. 
+Əgər istifadəçi səhv yazarsa istifadəçiyə səhfini bildirib, yenidən soruşun. Bunu etmək üçün while istifadə edin. 
+İstifadəçi düzgün yazdıqda isə break edib, ardından məlumatın düzgün olduğunu bildirin. 
+Əgər istifadəçi məlumatı girən zaman sağda solda boşluq buraxarsa həmin boşlquqları silin.
+
+
+
+# 4. (Az Çətin) `a = '123456789'` bir variable-iniz var. Başqa heç bir variable təyin etmədən a-nı istifadə edib, sadəcə və sadəcə print ilə aşağıdakı görüntünü yaradın:
+#     - hint (ipucu) üçün buranı açın
+#         1. Stringi tərsinə çevirmək üçün **slicing** yöntəmindən istifadə edin ([?:?:?])
+#         2. Hər characteri ayrı-ayrı vergüllə yazılıbmış kimi etmək üçün **unpacking** yöntəmindən istifadə edin
+#         3. aralarında saniyə + yeni sətir qoymaq üçün `sep` argumentindən istifadə edin
+#         4. sonda vaxt bitdi yazmaq üçün `end` argumetindən istifadə edin
+    
+#     ```python
+#     9 saniye
+#     8 saniye
+#     7 saniye
+#     6 saniye
+#     5 saniye
+#     4 saniye
+#     3 saniye
+#     2 saniye
+#     1 saniye
+#     Vaxt Bitdi!
+#     ```
+    
+# 5. (Orta Çətin) Girilən ədədin sadə bölənlərini göstərən kod hazırlayın. Örnək 12 ⇒ 2, 2, 3
+# 6. (Çox Çətin) 610-a qədər fibonacci ədədlərini göstərən kod hazırlayın. 
+Mümkün olarsa istifadəçinin girdiyi ədədə qədər də hazırlaya bilərsiniz. 
+Fibonacci ədədləri nələrdir ⇒ [The Fibonacci Sequence | Imagination Station (imaginationstationtoledo.org)](https://www.imaginationstationtoledo.org/about/blog/the-fibonacci-sequence/#:~:text=The%20Fibonacci%20sequence%20is%20the,xn%2D1%20%2B%20xn%2D2). Misal istifadəçi 250 giribsə aşağıdakı kimi nəticə çıxarmalısınız:
+# **`0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233`**

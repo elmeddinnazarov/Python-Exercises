@@ -1,0 +1,45 @@
+1. Istifadəçi sizə `"5 salam"` şəklində solda ədəd, ortada, boşluq, sağda isə bir input verəcək. Buna əsasən sağdakı yazını istifadəçinin qeyd etdiyi ədəd qədər yazıb, istifadəçiyə qatarın. Örnək yuxaridakı inputun outputu `salam salam salam salam salam`  
+2. `['alma', 'armud', 'heyva', 'nar', 'saftali']` şəklində listimiz var. Bu listdən istifadə edərək bir dictionary qurun. Keylər listin elementləri, value-lar isə elementin hərf sayı olsun. Bunun üçünü dictionary comprehensions yöntəmindən yararlana bilərsiniz. Misal: `{'alma': 4, ...}`
+3. Aşağıdakı fake databazanı istifadə edərək login sistemi qurun.
+    
+    ```python
+    users = [
+        {'name': 'Akif', 'username': 'a456', 'password': '1234', 'blocked': False},
+        {'name': 'Senan', 'username': 'sm_ov', 'password': '5423s', 'blocked': False},
+        {'name': 'Kamal', 'username': 'km123', 'password': '34-kk-325', 'blocked': True}
+    ]
+    ```
+    
+    1. istifadəçi username səhv girərsə belə bir istifadəçi yoxdur deyin
+    2. şifrəni səhv girərsə şifrəniz yanlışdır deyin
+    3. əgər blok olunubsa siz daxil ola bilməzsiniz deyin
+    4. əgər hər şey qaydasındadırsa “filankes giriş etdiniz” deyin
+
+    
+4. -100-dən müsbət 100-ə qədər ədədlər arasında 7-yə bölünən ədədlərin 3-ə vurulmasından ibarət bir list qurun. Bunun üçün range və list comprehensions istifadə edin.
+5. `options = {'key': len, reverse: True}` bu dictionary-dən istifadə edərək `['alma', 'armud', 'heyva', 'nar', 'saftali']` listi sort edin.
+6. Əlimizdə Aşağıdakı kimi bir data var.
+    
+    ```python
+    user_info = {
+        'firstname': 'Elvin',
+        'lastname': 'Huseynov',
+        'username': 'elivin_h_ov',
+        'password': '12345',
+        'birthday': '19-08-1997'
+    }
+    ```
+    
+    Istifadəçi sizə bir input vasitəsilə bunun kimi bir məlumat girəcək:
+    `input: firstname Elcin, username elchina, birthday 18-08-2000`
+    Bu inputa əsasən yuxarıdakı dictionary-ni update edin ve istifadəçiye gosterin. Misal yuxarıdakı inputa əsasən dictionary son halı aşağıdakı kimi olacaq.
+    
+    ```python
+    user_info = {
+        'firstname': 'Elcin',
+        'lastname': 'Huseynov',
+        'username': 'elchina',
+        'password': '12345',
+        'birthday': '18-08-2000'
+    }
+    ```

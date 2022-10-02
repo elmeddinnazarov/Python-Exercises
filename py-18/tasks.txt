@@ -1,0 +1,3 @@
+1. Geri sayim programi hazirlayin. Input olaraq bir deyer verin və program həmin dəyərdən 0-da doğru saniyə-saniyə geri saysın. 0-a çatdıqda bitdi desin.
+2. İçində olduğunuz dirin parentinin parentində olan faylların extensionlarını göstərən program hazırlayın.
+3. Bu datanı alıb istifadəçilərə uniqe id və (token ile) şifrə verərək yenidən save edin.

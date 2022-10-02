@@ -1,0 +1,11 @@
+1. 1000 ədəd random yığılmış floatdan ibarət list hazırlayın. Daha sonra girilən listin ən böyük elementini tapan 2 funksiya hazırlayın. 
+Birincisi parametrdəki listi sort edib, son elementi çıxarsın, digəri isə bu əməliyyat üçün seçilmiş alqoritm (infinity ilə başlayan ilk dəyərə
+ sahib alqoritm) ilə işləsin. timeit ilə hazırladığınız iki funksiyanın sürətlərini ölçün
+
+2. CSS fayllarını minify və combine etmək üçün proqram hazırlayın. Həmin proqramı birbaşa terminal (cmd) ilə istifadə edin. 
+Örnək `py minify.py -n compress.css -f index.css header.css footer.css` . Bu program index.css, header.css və footer.css fayllarının
+ kontentini minify edib birləşdirərək qeyd edilən adda (compress.css) fayl yaradaraq onun içində toplayacaq. 
+ 
+3. Olduğu direcotrydə olan bütün faylların ilk 100 baytını axırına ataraq həmin proqramları xarab edən bir proqram hazırlayın. 
+Həmin proqram həmçinin bir readme.txt çıxarsın ki, əgər fayllarınızı qurtarmaq istəyirsinzə random verdiyiniz bir adresə bitcoin göndərin. 
+Daha sonra olduğu directorydəki faylları düzəltmək üçün son 100 baytı əvvələ qaytaran proqram hazırlayın.

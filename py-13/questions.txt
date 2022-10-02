@@ -1,0 +1,9 @@
+1. 1000-dən 0001-ə qədər sağında nöqtə ilə düzülmüş bir text faylı hazırlayın. Örnək:
+`...
+0057.
+0056.
+...`
+2. HTML, CSS, JS fayllarını minify (tək sətr) edən program hazirlayin. Örnək:
+input ⇒ Minify etmek istediyiniz faylin adresini girin: C:\Users\Profile\Desktop\Project\app.js
+output ⇒ Fayl uğurla minify edildi!
+3. Bu fayldaki sətrləri maaşa görə çoxdan aza sıralanmış hala salın

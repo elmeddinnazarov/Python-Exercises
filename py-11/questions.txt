@@ -1,0 +1,71 @@
+Bioloji araşdırmalar institutuna araşdırmaçı proqramist olaraq işə alınmısınız və sizə aşağıakı kimi bir data verilib. Həmin datalara əsasən qeyd edilən tapşırıqları yerinə yetirin
+
+- Data
+    
+    ```python
+    baliqlar = {
+        'qelseme teneffusu', '2 kamerali urek', 'uzgec', 'korteks yoxdur',
+        'yumurtlama', 'dis yoxdur', '4 ayaq'
+    }
+    
+    cuculer = {
+        'toraks teneffusu', 'urek yoxdur', '6 ayaq',
+        'korteks vardir', 'beyin yoxdur', 'yumurtlama', 'metamorfoz', 
+        'dis yoxdur'
+    }
+    
+    amfibialar = {
+        'qelseme teneffusu', 'agciyer teneffusu', 'uzgec', '4 ayaq', 
+        '2 kamerali urek', '3 kamerali urek', 'metamorfoz', 'kotex vardir',
+        'yumurtlama', 'dis yoxdur'
+    }
+    
+    surunenler = {
+        'agciyer teneffusu', '3 kamerali urek', '4 ayaq', 'korteks vardir', 'yumurtlama',
+        'dis var'
+    }
+    
+    quslar = {
+        'agciyer teneffusu', '4 kamerali urek', 'korteks vardir',
+        'yumurtlama', 'dis yoxdur'
+    }
+    
+    memeliler = {
+        'agciyer teneffusu', '4 kamerali urek', '4 ayaq', 'korteks vardir',
+        'dogma', 'dis vardir'
+    }
+    
+    sinifler = {
+        'baliqlar': baliqlar,
+        'cuculer': cuculer,
+        'amfibialar': amfibialar,
+        'surunenler': surunenler,
+        'quslar': quslar,
+        'memeliler': memeliler,
+    }
+    ```
+    
+1. Quşların xüsusiyyətlərinə `"2 ayaq"` əlavə edin.
+2. Balıqların xüsusiyyətlərindən `"4 ayaq"` məlumatını çıxarın
+3. Amfibialar ilə cücülərin ortaq cəhətlərini göstərən kod yazın
+4. Balıqlar ilə amfibiaların fərqli cəhətlərini göstərən kod yazın
+5. Balıqlar ilə heç bir ortaq cəhətə sahib olmayan sinifi tapan kod yazın
+6. Quşlar ilə ən çox ortaq cəhətə sahib olan sinifi tapın
+7. İstifadəçi input ilə sizə bəzi özəlliklər girəcək. Siz həmin özəlliklərə əsasən heyvanın hansı sinifə aid ola biləcəyini təxmin edən kod yazın. Örnək
+
+`input: dis yoxdur, agciyer teneffusu, korteks vardir` 
+`output: Bu heyvan quslar sinifine aid ola biler`
+
+
+
+
+
+
+
+
+
+
+
+1. Bu kodda baş verə biləcək errorları araşdırıb, onları handle edin
+2. Təxmin edə bilməyəcəyiniz errorlar üçün bir şərt qoşun
+3. Əgər istifadəçi 10-dan artıq və ya 3-dən az heyvan giribsə internetdən istədiyiniz bir erroru taparaq təyin edin.
