@@ -109,14 +109,59 @@
 ################### Sual 7 ####################
         
         
+# datalist = [1452, 11.23, 1+2j, True, 'w3resource', (0, -1), [5, 12], {"class":'V', "section":'A'} ]
+# for i in datalist:
+#     tip=str(type(i))
+#     print(i,": ",tip[8:-2])
+
+###############################################
+################### Sual 8 ####################
+
+# for i in range(0,7):
+#     if i ==3 or i == 6:
+#         continue
+#     else:
+#         print(i)
         
+###############################################
+################### Sual 9 ####################
 
-    
-        
-    
-        
-        
+# a=0
+# c=0
+# while True:
+#     start=input("write start point: ")
+#     end=input("write end point: ")
+#     if not start.isnumeric():
+#         print("only numbers please!")
+#     elif not end.isnumeric():
+#         print("only numbers please!")
+#     else:
+#         start=int(start)
+#         end=int(end)
 
+#         if start==0:
+#             start=1
+#             count=start
+#         while count<end:
+#             print(start)
+#             c=a+start
+#             a=start
+#             start=c
+#             count+=1
+#     break
 
+###############################################
+################### Sual 10 ####################
 
+# for i in range(51):
+#     if i%3==0 and not i%5==0:
+#         print("fizz")
+#     elif i%5==0 and not i%3==0:
+#         print("buzz")
+#     elif i%3==0 and i%5==0:
+#         print("fizzbuzz")
+#     else:
+#         print(i)
 
+###############################################
+################### Sual 11 ####################
