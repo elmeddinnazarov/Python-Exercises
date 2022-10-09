@@ -1,0 +1,10 @@
+1. Silah class ı hazırlayın. hemin classs a string deyere sahib metal attributu verin. Qarşılıq üçün herhansı bir metaladı seçe bilersiniz.
+2. __init__() fonksiyasında gülle sayısını qeyd edecek şekilde qurun
+3. Silah class nı inherit edib Avtomat ve Snayper class ı yaradın
+4. Hemin class lara ayrı ayrılıqda power deyeri verin
+5. Solider class nı yeniden hazırlayıb yaradacağınız objecte __init__() fonksiyası vasitesi ile Avtomat ve Snayper classları ile yarattığınız 
+    objecleri verin ve self.weapon olaraq qeyd edin. Solider ateş açtıqda reqibinin canını weaponun poweri qeder azaltsın
+6. ateş açtıqda silahın gülle sayından bir çıxın
+7, Esger objeclerini len funksiyası içinde işletdikte silahının gülle sayısını gösteren special method yazın. 
+    Bunun üçün __len__() special methodundan istifsde olunacaq.
+    
